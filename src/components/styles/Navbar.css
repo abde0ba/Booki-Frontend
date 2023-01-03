@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.navbar-section {
+    width: 20%;
+    height: 100vh;
+    background-color: #1a1c1e;
+    position: fixed;
+}
+#logo {
+    font-size: 35px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-weight: 600;
+}
+.navbar-section li {
+    list-style-type: none;
+    /*text-align: left;*/
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+.nav-icon-list {
+    text-align: left;
+    margin-left: -10px;
+}
+.nav-icon-list li i {
+    margin: 10px 15px 10px 0px;
+    font-size: 20px;
+}
+.nav-icon-list li a {
+    color: white;
+}
+.nav-icon-list li:nth-child(1) i {
+    margin-right: 10px;
+}
+
+.nav-links, .bottom-nav {
+    margin: 30px 15px 0 -15px;
+    text-align: center !important;
+
+}
+.nav-links li{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.nav-links li a{
+    padding: 10px 25px;
+    
+}
+
+.nav-links a:nth-child(1)  {
+    color: white;
+}
+.nav-links li:nth-child(1){
+    background-color: white;
+    color: black;
+}
+.nav-links a:nth-child(2) li{
+    background-image: linear-gradient(to right, #FF512F, #DD2476) !important;
+    border: none;
+    color: white;
+}
+.bottom-nav {
+    position: absolute;
+    bottom: 2rem;
+    left: 0rem;
+}
+
+.bottom-nav a, .bottom-nav p {
+    color: #6a6a6a;
+}
+
+.bottom-nav a:hover {
+    color: white;
+}
+
+.bottom-nav li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.bottom-nav p {
+    font-size: 12.5px;
+    text-align: left;
+}

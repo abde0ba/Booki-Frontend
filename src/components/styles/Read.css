@@ -1,0 +1,17 @@
+#pdfviewer {
+    background: transparent;
+    z-index: 2;
+}
+iframe {
+    height: 95vh;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.ndfHFb-c4YZDc-Wrql6b > div{
+    display: none !important;
+}
+.read-btns button{
+    margin: 10px 10px;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.article-section {
+    margin-top: 2rem;
+}
+.article-img {
+    position: relative;
+    text-align: left;
+    left: 5rem;
+}
+
+.article-header {
+    text-align: left;
+    top: 2rem;
+    left: -5rem;
+    position: relative;
+}
+.article-header p, .article-header small, .bottom, .summary-section p {
+    font-family: 'Open Sans', sans-serif;
+}
+.article-header .bottom {
+    position: relative;
+    top: 3rem;
+}
+.article-header .bottom .rem{
+    color:#ff0000;
+}
+
+.article-section small {
+    color: #605e5e;
+}
+
+.summary-section {
+    text-align: left;
+    margin: 2rem 4.7rem;
+    background-color: #1a1c1e;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}

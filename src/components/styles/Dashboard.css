@@ -1,0 +1,14 @@
+.dashboard {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.dashboard div {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #1a1c1e;
+}
+.dashboard h3 {
+    font: 10px;
+}
